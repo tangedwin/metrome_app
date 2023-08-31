@@ -1,0 +1,172 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (7.0.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.7)
+  - AMapLocation (2.6.3):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (6.9.0):
+    - AMapFoundation (~> 1.4)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - GDTMobSDK (4.10.14):
+    - GDTMobSDK/GDTMobSDK (= 4.10.14)
+  - GDTMobSDK/GDTMobSDK (4.10.14)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.2.0)
+  - mob_linksdk (2.2.6):
+    - MOBFoundation
+  - mob_pushsdk (2.2.2):
+    - mob_pushsdk/MobPush (= 2.2.2)
+    - MOBFoundation
+  - mob_pushsdk/MobPush (2.2.2):
+    - MOBFoundation
+  - mob_sharesdk (4.3.2):
+    - mob_sharesdk/ShareSDK (= 4.3.2)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.3.2):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.3.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.3.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKRestoreScene (4.3.2):
+    - mob_sharesdk/ShareSDKExtension
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.3.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_smssdk (3.2.3):
+    - MOBFoundation
+  - MOBFoundation (3.2.6)
+  - SDWebImage (5.2.3):
+    - SDWebImage/Core (= 5.2.3)
+  - SDWebImage/Core (5.2.3)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - YHPDFImageLoader (1.0.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
+  - CocoaLumberjack
+  - GDTMobSDK
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - mob_linksdk
+  - mob_pushsdk
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (< 4.3.3)
+  - mob_sharesdk/ShareSDKRestoreScene
+  - mob_sharesdk/ShareSDKUI
+  - mob_smssdk
+  - SDWebImage
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
+  - YHPDFImageLoader
+  - YYImage
+  - YYModel
+  - YYWebImage
+  - ZipArchive
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - CocoaLumberjack
+    - GDTMobSDK
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - mob_linksdk
+    - mob_pushsdk
+    - mob_sharesdk
+    - mob_smssdk
+    - MOBFoundation
+    - SDWebImage
+    - YHPDFImageLoader
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+    - ZipArchive
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.x
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 4b507e48da30711e25d1bcdd19580f25887a2267
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap3DMap: 6616761d235e9711fd8053774cec911928c00146
+  AMapFoundation: 216d58448c80356434ac4332250a8fdb2f5c4d1e
+  AMapLocation: dc2c4fde95d72087d73934338160fadc72104bb7
+  AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  GDTMobSDK: b974c327ab530e5fbc165cf4a44466f58110bfac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  mob_linksdk: bd90e001752222a07f76a77606eb3b7a174d088f
+  mob_pushsdk: 7d001ab597383d69e2d8eae257e69dfb9d2874aa
+  mob_sharesdk: 1f9c5b4e252296e7d3571e5f8e7ca13ea305f924
+  mob_smssdk: cdb6a31d4fd4667ed928e2eca03f21ad89ebc05c
+  MOBFoundation: 08c456357888e4c984fba23bbf04cfd2f4fc1e02
+  SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+  YHPDFImageLoader: cd9628397fff7fd72368cd26dbc5290f05311276
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: 1b67d082e8cc1370bc4ef3a96dbe87ed177fdef3
+
+COCOAPODS: 1.7.1
