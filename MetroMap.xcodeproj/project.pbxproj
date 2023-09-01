@@ -65,7 +65,6 @@
 		1833B341238BDF7800FAA003 /* FeedbackTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833B340238BDF7800FAA003 /* FeedbackTitleView.m */; };
 		1833B344238BE04300FAA003 /* FeedbackTitleCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833B343238BE04300FAA003 /* FeedbackTitleCellView.m */; };
 		1835024E2313EC06000AC13C /* svg-click.js in Resources */ = {isa = PBXBuildFile; fileRef = 1835024D2313EC05000AC13C /* svg-click.js */; };
-		183502502313EC27000AC13C /* shanghaiMap.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1835024F2313EC27000AC13C /* shanghaiMap.svg */; };
 		18350253231407C1000AC13C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18350252231407C1000AC13C /* MainViewController.m */; };
 		183D92E7236E8F3200F12878 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D92E6236E8F3200F12878 /* ShowImageViewController.m */; };
 		183D92EE236E8FBD00F12878 /* UIScrollView+Cutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D92EA236E8FBD00F12878 /* UIScrollView+Cutter.m */; };
@@ -147,7 +146,6 @@
 		18921C7C234DD0820042DFCD /* MainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C7B234DD0820042DFCD /* MainMapViewController.m */; };
 		18921C7F234DD1180042DFCD /* BaseCitySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C7E234DD1180042DFCD /* BaseCitySearchViewController.m */; };
 		18921C82234DE5670042DFCD /* MainMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C81234DE5670042DFCD /* MainMapView.m */; };
-		18921C85234EBF310042DFCD /* HangzhouMetro.svg in Resources */ = {isa = PBXBuildFile; fileRef = 18921C84234EBF300042DFCD /* HangzhouMetro.svg */; };
 		18921C88234EF79E0042DFCD /* StationInfoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C87234EF79E0042DFCD /* StationInfoAlert.m */; };
 		18921C8C2350702C0042DFCD /* RouteInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C8B2350702C0042DFCD /* RouteInfoView.m */; };
 		18921C8F235079EB0042DFCD /* ScrollSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18921C8E235079EB0042DFCD /* ScrollSignView.m */; };
@@ -326,7 +324,6 @@
 		1833B342238BE04300FAA003 /* FeedbackTitleCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedbackTitleCellView.h; sourceTree = "<group>"; };
 		1833B343238BE04300FAA003 /* FeedbackTitleCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackTitleCellView.m; sourceTree = "<group>"; };
 		1835024D2313EC05000AC13C /* svg-click.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "svg-click.js"; sourceTree = "<group>"; };
-		1835024F2313EC27000AC13C /* shanghaiMap.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shanghaiMap.svg; sourceTree = "<group>"; };
 		18350251231407C1000AC13C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		18350252231407C1000AC13C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		183D92E5236E8F3200F12878 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
@@ -475,7 +472,6 @@
 		18921C7E234DD1180042DFCD /* BaseCitySearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCitySearchViewController.m; sourceTree = "<group>"; };
 		18921C80234DE5670042DFCD /* MainMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMapView.h; sourceTree = "<group>"; };
 		18921C81234DE5670042DFCD /* MainMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMapView.m; sourceTree = "<group>"; };
-		18921C84234EBF300042DFCD /* HangzhouMetro.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HangzhouMetro.svg; sourceTree = "<group>"; };
 		18921C86234EF79E0042DFCD /* StationInfoAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationInfoAlert.h; sourceTree = "<group>"; };
 		18921C87234EF79E0042DFCD /* StationInfoAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationInfoAlert.m; sourceTree = "<group>"; };
 		18921C8A2350702C0042DFCD /* RouteInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteInfoView.h; sourceTree = "<group>"; };
@@ -883,8 +879,6 @@
 				187C895F22BDE0CF00F8DBF1 /* Assets.xcassets */,
 				187C896422BDE0CF00F8DBF1 /* Info.plist */,
 				187C896522BDE0CF00F8DBF1 /* main.m */,
-				18921C84234EBF300042DFCD /* HangzhouMetro.svg */,
-				1835024F2313EC27000AC13C /* shanghaiMap.svg */,
 				1835024D2313EC05000AC13C /* svg-click.js */,
 				182DE176231A76110083C859 /* snap.svg-min.js */,
 				18B412E62390B0EB00520CBF /* Launch Screen.storyboard */,
@@ -1388,7 +1382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				185E725D238E46A200E9B046 /* mj_loading11.png in Resources */,
-				18921C85234EBF310042DFCD /* HangzhouMetro.svg in Resources */,
 				18B413132391270E00520CBF /* location11.png in Resources */,
 				180D60C6238F5F2500D87B2A /* mj_loading_dark12.png in Resources */,
 				185E725F238E46A200E9B046 /* mj_loading9.png in Resources */,
@@ -1422,7 +1415,6 @@
 				180D60C8238F5F2500D87B2A /* mj_loading_dark7.png in Resources */,
 				189C8087234B385D004E34D2 /* DIN-Medium.otf in Resources */,
 				189C8088234B385D004E34D2 /* DIN-Black.otf in Resources */,
-				183502502313EC27000AC13C /* shanghaiMap.svg in Resources */,
 				18B413022391270E00520CBF /* location9.png in Resources */,
 				18B412E42390B0EB00520CBF /* Launch Screen.storyboard in Resources */,
 				189C8084234B385D004E34D2 /* DIN-Bold.otf in Resources */,
